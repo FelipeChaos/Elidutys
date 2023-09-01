@@ -1,0 +1,90 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 20;
+    padding: 0;
+    background-color: darkcyan
+}
+h1 { 
+    background-color: lightblue;
+    color: royalblue;
+    text-align: center;
+    padding: 5%;
+}
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 5rem;
+    background-color: rgba(57, 158, 103, 0);
+    border-radius: 70px;
+    box-shadow: 0 0 200px rgb(117, 19, 209);
+}
+button {
+    max-width: fit-content;
+    background-color: lightsalmon;
+    padding: 10px;
+    border-radius: 100px;
+    transition: background-color 0.5s, transform 0.5s;
+}
+button:hover{
+background-color: lightgreen;
+transform: scale(1.1);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 200px lightblue;
+}
+th, td{
+    border: 3px solid lightcoral;
+    padding: 8px;
+    text-align: start;
+}
+th { 
+    background-color: pink;
+}
+input[type="checkbox"] {
+    transform: scale(1.5);
+    background-color: lightsalmon;
+}
+tr {
+    background-color: pink;}
+div {
+    text-align: center;
+}
+h1 {text-align: center;}
+h2 {text-align: center;}
+h3 {text-align: center;}
+h4 {text-align: center; color: burlywood;font-size: 150% ;}
+p { text-align: center; }
+dt {text-align: center; text-shadow: 35px;}
+header {
+    text-align: center;
+    padding: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 200%;
+    font-style: oblique; color: darkslateblue;
+}
+.input{
+    border-style:double;
+    width: 30%;
+    padding: 1%;
+    color: dimgray;
+}
+.input:invalid {
+    animation: justshake 0.15s forwards;
+    color: blue;
+    border-color: red; /*en caso de que la clave esté mal*/
+}
+@keyframes justshake { 
+    40%{ transform: translateX(5px);}
+    60%{ transform: translateX(-5px);}
+    75%{ transform: translateX(5px);}
+    100%{ transform: translateX(-5px);}
+}
+
+.seccionpremios { 
+    background-color: lightyellow;
+    border-radius: 20px;
+    padding: 2%;
+    margin-top: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
